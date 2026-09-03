@@ -1,9 +1,7 @@
 # SemanticTruck
 
 Automated estimation of the **solid wood content of roundwood truckloads** from photogrammetric
-point clouds.
-
-This is the analysis code for *"Deep learning and photogrammetry for automated solid wood content
+point clouds. This is the analysis code for *"Deep learning and photogrammetry for automated solid wood content
 estimation in roundwood truckloads"* (Acuna, García-Pascual, Martín-Cortés & de Miguel-Díez). It
 covers everything from a segmented point cloud to the reported results: bay individualisation,
 base-plane alignment, surface reconstruction, gross-volume integration, the regression to solid
