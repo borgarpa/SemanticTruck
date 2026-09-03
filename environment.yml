@@ -1,0 +1,17 @@
+# A Conda environment for SemanticTruck. It provides the interpreter and nothing else: the
+# dependencies themselves come from `pip install -e .`, which reads them from pyproject.toml.
+#
+#   conda env create -f environment.yml
+#   conda activate semantictruck
+#   pip install -e .
+#
+# Keeping the dependency list in pyproject.toml alone means there is one place to change it, and no
+# way for a conda file and a pip file to drift into disagreeing about a pin. Two of those pins are
+# load-bearing and are explained where they live: open3d is pinned by behaviour rather than API,
+# and laspy needs its lazrs extra to read .laz at all.
+name: semantictruck
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip

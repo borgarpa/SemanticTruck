@@ -1,0 +1,27 @@
+{
+  "sor_neighbours": 250,
+  "sor_std_ratio": 1.5,
+  "dbscan_eps": 0.06,
+  "dbscan_min_points": 10,
+  "dbscan_radius": 0.06,
+  "crop_m": 0.5,
+  "nslices": 8,
+  "npoints": 100,
+  "normal_radius": 0.05,
+  "k_normals": 15,
+  "voxel_size": 0.025,
+  "poisson_depth": 8,
+  "q_filter": 0.075,
+  "method": "poisson",
+  "alpha": 2.0,
+  "bpa_radii": [
+    0.05,
+    0.1,
+    0.2
+  ],
+  "n_bays": 2,
+  "kmeans_max_iter": 1000,
+  "kmeans_seed": 0,
+  "downsample_every_k": 3,
+  "dedup": true
+}

@@ -1,0 +1,90 @@
+campaign    : /home/bogarcia/Data/TruckSegm/ptv3_results
+folds file  : /home/bogarcia/Data/TruckSegm/folds.json
+grid mode   : test
+checkpoint  : model_last.pth
+
+fold 0: /home/bogarcia/Data/TruckSegm/ptv3_results/fold_0/model/model_last.pth (epoch 50)
+  val set: 6 load(s)
+    [1/6] Truck_15_2021      4008108 pts   29.08 s fwd   51.36 s total  loss 0.0364  acc 0.9945  mIoU 0.9891  stored-pred d_mIoU -0.00014, 0.133 % of points differ
+    [2/6] Truck_17_2021      4167738 pts   27.65 s fwd   49.35 s total  loss 0.0322  acc 0.9942  mIoU 0.9885  stored-pred d_mIoU +0.00001, 0.065 % of points differ
+    [3/6] Truck_3_2016       4407652 pts   28.66 s fwd   51.70 s total  loss 0.0149  acc 0.9977  mIoU 0.9950  stored-pred d_mIoU +0.00005, 0.045 % of points differ
+    [4/6] Truck_5_2016       5963965 pts   38.72 s fwd   71.54 s total  loss 0.0479  acc 0.9928  mIoU 0.9855  stored-pred d_mIoU -0.00069, 0.250 % of points differ
+    [5/6] Truck_6_2016       2988109 pts   19.39 s fwd   36.28 s total  loss 0.0401  acc 0.9918  mIoU 0.9834  stored-pred d_mIoU +0.00025, 0.131 % of points differ
+    [6/6] Truck_8_2021       4882129 pts   35.38 s fwd   63.25 s total  loss 0.0377  acc 0.9931  mIoU 0.9863  stored-pred d_mIoU -0.00015, 0.070 % of points differ
+fold 1: /home/bogarcia/Data/TruckSegm/ptv3_results/fold_1/model/model_last.pth (epoch 50)
+  val set: 6 load(s)
+    [1/6] Truck_10_2016      6151632 pts   37.45 s fwd   68.54 s total  loss 0.0179  acc 0.9971  mIoU 0.9943  stored-pred d_mIoU +0.00001, 0.034 % of points differ
+    [2/6] Truck_10_2021      5080085 pts   35.12 s fwd   61.74 s total  loss 0.0313  acc 0.9943  mIoU 0.9884  stored-pred d_mIoU -0.00002, 0.080 % of points differ
+    [3/6] Truck_1_2016       2671399 pts   19.12 s fwd   34.69 s total  loss 0.0167  acc 0.9972  mIoU 0.9940  stored-pred d_mIoU -0.00000, 0.029 % of points differ
+    [4/6] Truck_3_2021       3971587 pts   30.55 s fwd   53.19 s total  loss 0.0554  acc 0.9898  mIoU 0.9794  stored-pred d_mIoU -0.00022, 0.205 % of points differ
+    [5/6] Truck_4_2021       3003540 pts   22.87 s fwd   41.98 s total  loss 0.0310  acc 0.9942  mIoU 0.9885  stored-pred d_mIoU +0.00010, 0.063 % of points differ
+    [6/6] Truck_7_2021       5335888 pts   35.62 s fwd   63.30 s total  loss 0.0544  acc 0.9896  mIoU 0.9794  stored-pred d_mIoU +0.00010, 0.128 % of points differ
+fold 2: /home/bogarcia/Data/TruckSegm/ptv3_results/fold_2/model/model_last.pth (epoch 50)
+  val set: 6 load(s)
+    [1/6] Truck_13_2021      4352448 pts   30.75 s fwd   54.45 s total  loss 0.0308  acc 0.9945  mIoU 0.9891  stored-pred d_mIoU +0.00008, 0.074 % of points differ
+    [2/6] Truck_18_2021      4802601 pts   33.88 s fwd   60.54 s total  loss 0.0512  acc 0.9907  mIoU 0.9816  stored-pred d_mIoU -0.00014, 0.166 % of points differ
+    [3/6] Truck_2_2016       6463619 pts   37.14 s fwd   71.73 s total  loss 0.0133  acc 0.9980  mIoU 0.9957  stored-pred d_mIoU -0.00000, 0.025 % of points differ
+    [4/6] Truck_4_2016       4120481 pts   28.98 s fwd   51.06 s total  loss 0.0209  acc 0.9963  mIoU 0.9927  stored-pred d_mIoU -0.00018, 0.060 % of points differ
+    [5/6] Truck_5_2021       3963169 pts   27.35 s fwd   47.89 s total  loss 0.0456  acc 0.9921  mIoU 0.9837  stored-pred d_mIoU -0.00003, 0.077 % of points differ
+    [6/6] Truck_6_2021       4304393 pts   30.31 s fwd   52.87 s total  loss 0.0541  acc 0.9906  mIoU 0.9811  stored-pred d_mIoU -0.00025, 0.112 % of points differ
+fold 3: /home/bogarcia/Data/TruckSegm/ptv3_results/fold_3/model/model_last.pth (epoch 50)
+  val set: 6 load(s)
+    [1/6] Truck_11_2021      4724808 pts   32.98 s fwd   57.98 s total  loss 0.0401  acc 0.9925  mIoU 0.9850  stored-pred d_mIoU -0.00007, 0.098 % of points differ
+    [2/6] Truck_12_2021      4427149 pts   31.58 s fwd   55.80 s total  loss 0.0579  acc 0.9898  mIoU 0.9796  stored-pred d_mIoU +0.00008, 0.081 % of points differ
+    [3/6] Truck_16_2021      2057488 pts   21.29 s fwd   36.36 s total  loss 0.0533  acc 0.9893  mIoU 0.9788  stored-pred d_mIoU +0.00010, 0.169 % of points differ
+    [4/6] Truck_2_2021       3991563 pts   28.59 s fwd   49.61 s total  loss 0.1112  acc 0.9795  mIoU 0.9598  stored-pred d_mIoU -0.00129, 0.441 % of points differ
+    [5/6] Truck_8_2016       5988363 pts   36.96 s fwd   66.38 s total  loss 0.0214  acc 0.9966  mIoU 0.9927  stored-pred d_mIoU -0.00004, 0.069 % of points differ
+    [6/6] Truck_9_2016       4776662 pts   29.11 s fwd   51.20 s total  loss 0.0265  acc 0.9955  mIoU 0.9909  stored-pred d_mIoU +0.00004, 0.078 % of points differ
+fold 4: /home/bogarcia/Data/TruckSegm/ptv3_results/fold_4/model/model_last.pth (epoch 50)
+  val set: 6 load(s)
+    [1/6] Truck_11_2016      3978797 pts   29.05 s fwd   51.24 s total  loss 0.0652  acc 0.9887  mIoU 0.9761  stored-pred d_mIoU -0.00218, 0.426 % of points differ
+    [2/6] Truck_14_2021      4753376 pts   35.73 s fwd   63.01 s total  loss 0.0514  acc 0.9909  mIoU 0.9818  stored-pred d_mIoU -0.00037, 0.187 % of points differ
+    [3/6] Truck_19_2021      5176269 pts   36.19 s fwd   63.18 s total  loss 0.1194  acc 0.9798  mIoU 0.9593  stored-pred d_mIoU +0.00013, 0.683 % of points differ
+    [4/6] Truck_1_2021       5385857 pts   37.47 s fwd   64.98 s total  loss 0.1528  acc 0.9751  mIoU 0.9513  stored-pred d_mIoU -0.00085, 0.492 % of points differ
+    [5/6] Truck_7_2016       5890396 pts   33.46 s fwd   60.40 s total  loss 0.0263  acc 0.9964  mIoU 0.9925  stored-pred d_mIoU -0.00001, 0.126 % of points differ
+    [6/6] Truck_9_2021       4868374 pts   33.79 s fwd   58.74 s total  loss 0.1065  acc 0.9822  mIoU 0.9650  stored-pred d_mIoU +0.00067, 0.387 % of points differ
+
+30 row(s) in 30.1 min
+
+results/segmentation/inference_per_sample_test.csv
+results/segmentation/inference_summary_test.csv
+results/segmentation/inference_timing_test.csv  (semantictruck-timing --external-timings)
+
+consistency check (test mode)
+------------------------------------------------------------------------------
+  fold  load                 d_mIoU      d_acc   differ %  verdict
+  0     Truck_15_2021      -0.00014   -0.00007      0.133       ok
+  0     Truck_17_2021      +0.00001   +0.00001      0.065       ok
+  0     Truck_3_2016       +0.00005   +0.00003      0.045       ok
+  0     Truck_5_2016       -0.00069   -0.00034      0.250       ok
+  0     Truck_6_2016       +0.00025   +0.00012      0.131       ok
+  0     Truck_8_2021       -0.00015   -0.00007      0.070       ok
+  1     Truck_10_2016      +0.00001   +0.00001      0.034       ok
+  1     Truck_10_2021      -0.00002   -0.00001      0.080       ok
+  1     Truck_1_2016       -0.00000   -0.00000      0.029       ok
+  1     Truck_3_2021       -0.00022   -0.00011      0.205       ok
+  1     Truck_4_2021       +0.00010   +0.00005      0.063       ok
+  1     Truck_7_2021       +0.00010   +0.00005      0.128       ok
+  2     Truck_13_2021      +0.00008   +0.00004      0.074       ok
+  2     Truck_18_2021      -0.00014   -0.00007      0.166       ok
+  2     Truck_2_2016       -0.00000   -0.00000      0.025       ok
+  2     Truck_4_2016       -0.00018   -0.00009      0.060       ok
+  2     Truck_5_2021       -0.00003   -0.00002      0.077       ok
+  2     Truck_6_2021       -0.00025   -0.00012      0.112       ok
+  3     Truck_11_2021      -0.00007   -0.00004      0.098       ok
+  3     Truck_12_2021      +0.00008   +0.00004      0.081       ok
+  3     Truck_16_2021      +0.00010   +0.00005      0.169       ok
+  3     Truck_2_2021       -0.00129   -0.00067      0.441       ok
+  3     Truck_8_2016       -0.00004   -0.00002      0.069       ok
+  3     Truck_9_2016       +0.00004   +0.00002      0.078       ok
+  4     Truck_11_2016      -0.00218   -0.00104      0.426  EXCEEDS
+  4     Truck_14_2021      -0.00037   -0.00019      0.187       ok
+  4     Truck_19_2021      +0.00013   +0.00007      0.683       ok
+  4     Truck_1_2021       -0.00085   -0.00044      0.492       ok
+  4     Truck_7_2016       -0.00001   -0.00000      0.126       ok
+  4     Truck_9_2021       +0.00067   +0.00035      0.387       ok
+
+  largest |delta| 0.002184 against --tol 0.002
+  Tenths of a percent of points differing is expected -- the forward is not
+  bit-reproducible here. The metrics are what must agree.
+------------------------------------------------------------------------------

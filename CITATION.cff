@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+title: SemanticTruck
+message: >-
+  If you use this software, please cite the paper it implements.
+type: software
+authors:
+  - family-names: García-Pascual
+    given-names: Borja
+    affiliation: University of Eastern Finland; Natural Resouces Institute Finland
+  - family-names: Acuna
+    given-names: Mauricio
+    affiliation: University of the Sunshine Coast
+  - family-names: Martín-Cortés
+    given-names: Carlos
+    affiliation: Joint Research Unit CTFC - AGROTECNIO
+  - family-names: de Miguel-Díez
+    given-names: Felipe
+    affiliation: Eberswalde University for Sustainable Development
+license: MIT
+version: 1.0.0
+abstract: >-
+  Automated estimation of the solid wood content of roundwood
+  truckloads from photogrammetric point clouds: bay
+  individualisation, base-plane alignment, Poisson surface
+  reconstruction, gross volume integration and regression to
+  solid volume.
+preferred-citation:
+  type: article
+  title: >-
+    Deep learning and photogrammetry for automated solid wood
+    content estimation in roundwood truckloads
+  authors:
+    - family-names: Acuna
+      given-names: Mauricio
+    - family-names: García-Pascual
+      given-names: Borja
+    - family-names: Martín-Cortés
+      given-names: Carlos
+    - family-names: de Miguel-Díez
+      given-names: Felipe

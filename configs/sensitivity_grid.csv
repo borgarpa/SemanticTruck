@@ -1,0 +1,17 @@
+﻿Setting ID,Stage,Method,Parameter,Baseline,Test Values
+BASE,0,All,All at baseline,-,-
+P01,1,SOR filter,Neighbors,250,"100, 250, 500"
+P02,1,SOR filter,sigma multiplier,1.5,"1.0, 1.5, 2.0"
+P03,1,DBSCAN,epsilon (m),0.06,"0.03, 0.06, 0.10"
+P04,1,DBSCAN,Min points,10,"5, 10, 20"
+P05,1,Alignment,Crop size (cm),50,"25, 50, 75"
+P06,1,Alignment,Slices,16 (8 per half),"8, 16, 24"
+P07,1,Alignment,Points per slice,100,"50, 100, 150"
+P08,1,Voxelization,Voxel size g (cm),2.5,"none, 2.5, 5.0"
+P09,1,Poisson,Octree depth,8,"7, 8, 9"
+P10,1,Poisson,Density percentile,7.5,"5, 7.5, 10"
+P11,2,Ball Pivoting,Radii rho (m),"B: [0.05,0.10,0.20]","A: [0.025,0.05,0.10] (1-4g); B: [0.05,0.10,0.20] (2-8g); C: [0.10,0.20,0.30] (4-12g)"
+P12,2,Alpha Shape,Alpha (m),2.0,"1, 2, 4"
+P13,2,Convex Hull,-,-,-
+P14,1,Normals,Search radius (m),0.05,"0.05, 0.07, 0.15"
+P15,1,Normals,Orientation neighbours k,15,"6, 15, 30"

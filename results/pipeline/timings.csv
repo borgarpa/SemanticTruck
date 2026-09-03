@@ -1,0 +1,305 @@
+scope,segmentation,load_id,step,seconds
+load,reference,Truck_10_2016,read + cargo mask,0.7793553980009165
+load,reference,Truck_10_2016,dedup + decimate + align,5.892003229993861
+load,reference,Truck_10_2016,outlier removal + bay split + bay align,42.74807411999791
+load,reference,Truck_10_2016,voxelize + mesh + integrate,0.9635867099859752
+load,reference,Truck_10_2016,total,50.38524968002457
+load,reference,Truck_10_2021,read + cargo mask,0.5082474770024419
+load,reference,Truck_10_2021,dedup + decimate + align,4.09680466199643
+load,reference,Truck_10_2021,outlier removal + bay split + bay align,28.19266478100326
+load,reference,Truck_10_2021,voxelize + mesh + integrate,3.030952522007283
+load,reference,Truck_10_2021,total,35.82878135799547
+load,reference,Truck_11_2016,read + cargo mask,0.3802928200166207
+load,reference,Truck_11_2016,dedup + decimate + align,3.035794431983959
+load,reference,Truck_11_2016,outlier removal + bay split + bay align,27.794860196998343
+load,reference,Truck_11_2016,voxelize + mesh + integrate,0.8834930300072301
+load,reference,Truck_11_2016,total,32.09454010199988
+load,reference,Truck_11_2021,read + cargo mask,0.45453502199961804
+load,reference,Truck_11_2021,dedup + decimate + align,3.5834324349998496
+load,reference,Truck_11_2021,outlier removal + bay split + bay align,25.443842215987388
+load,reference,Truck_11_2021,voxelize + mesh + integrate,3.3550059300032444
+load,reference,Truck_11_2021,total,32.83692220901139
+load,reference,Truck_12_2021,read + cargo mask,0.4246040740108583
+load,reference,Truck_12_2021,dedup + decimate + align,3.4993591899983585
+load,reference,Truck_12_2021,outlier removal + bay split + bay align,23.724902526999358
+load,reference,Truck_12_2021,voxelize + mesh + integrate,3.297457814012887
+load,reference,Truck_12_2021,total,30.946426739013987
+load,reference,Truck_13_2021,read + cargo mask,0.42931615401175804
+load,reference,Truck_13_2021,dedup + decimate + align,3.3287832970090676
+load,reference,Truck_13_2021,outlier removal + bay split + bay align,27.516172150993953
+load,reference,Truck_13_2021,voxelize + mesh + integrate,3.8799035089905374
+load,reference,Truck_13_2021,total,35.154278574016644
+load,reference,Truck_14_2021,read + cargo mask,0.4578305220056791
+load,reference,Truck_14_2021,dedup + decimate + align,3.660906064993469
+load,reference,Truck_14_2021,outlier removal + bay split + bay align,28.54089308800758
+load,reference,Truck_14_2021,voxelize + mesh + integrate,3.435094131040387
+load,reference,Truck_14_2021,total,36.09482499299338
+load,reference,Truck_15_2021,read + cargo mask,0.381215556000825
+load,reference,Truck_15_2021,dedup + decimate + align,3.097501693002414
+load,reference,Truck_15_2021,outlier removal + bay split + bay align,23.83665700900019
+load,reference,Truck_15_2021,voxelize + mesh + integrate,3.631341144006001
+load,reference,Truck_15_2021,total,30.946827448991826
+load,reference,Truck_16_2021,read + cargo mask,0.19943550002062693
+load,reference,Truck_16_2021,dedup + decimate + align,1.616275295993546
+load,reference,Truck_16_2021,outlier removal + bay split + bay align,10.01151886198204
+load,reference,Truck_16_2021,voxelize + mesh + integrate,3.8556031539919786
+load,reference,Truck_16_2021,total,15.682935499993619
+load,reference,Truck_17_2021,read + cargo mask,0.39945654600160196
+load,reference,Truck_17_2021,dedup + decimate + align,3.260926266986644
+load,reference,Truck_17_2021,outlier removal + bay split + bay align,25.28833777300315
+load,reference,Truck_17_2021,voxelize + mesh + integrate,3.405895303032594
+load,reference,Truck_17_2021,total,32.35471997698187
+load,reference,Truck_18_2021,read + cargo mask,0.4616778749914374
+load,reference,Truck_18_2021,dedup + decimate + align,3.7899286600004416
+load,reference,Truck_18_2021,outlier removal + bay split + bay align,26.272494750999613
+load,reference,Truck_18_2021,voxelize + mesh + integrate,3.3206263089959975
+load,reference,Truck_18_2021,total,33.8448275999981
+load,reference,Truck_19_2021,read + cargo mask,0.49452391199884005
+load,reference,Truck_19_2021,dedup + decimate + align,4.050968181982171
+load,reference,Truck_19_2021,outlier removal + bay split + bay align,27.28949883498717
+load,reference,Truck_19_2021,voxelize + mesh + integrate,3.2302112270263024
+load,reference,Truck_19_2021,total,35.06530489999568
+load,reference,Truck_1_2016,read + cargo mask,0.26836236601229757
+load,reference,Truck_1_2016,dedup + decimate + align,2.0673434709897265
+load,reference,Truck_1_2016,outlier removal + bay split + bay align,18.069415602018125
+load,reference,Truck_1_2016,voxelize + mesh + integrate,0.8366230610117782
+load,reference,Truck_1_2016,total,21.24183398199966
+load,reference,Truck_1_2021,read + cargo mask,0.5052539739990607
+load,reference,Truck_1_2021,dedup + decimate + align,4.200760520994663
+load,reference,Truck_1_2021,outlier removal + bay split + bay align,32.24144915799843
+load,reference,Truck_1_2021,voxelize + mesh + integrate,3.8631993269955274
+load,reference,Truck_1_2021,total,40.810770851996494
+load,reference,Truck_2_2016,read + cargo mask,0.6254599789972417
+load,reference,Truck_2_2016,dedup + decimate + align,5.149504575005267
+load,reference,Truck_2_2016,outlier removal + bay split + bay align,47.739562351984205
+load,reference,Truck_2_2016,voxelize + mesh + integrate,0.9121901900216471
+load,reference,Truck_2_2016,total,54.426810493983794
+load,reference,Truck_2_2021,read + cargo mask,0.4315843069925904
+load,reference,Truck_2_2021,dedup + decimate + align,2.9452075930021238
+load,reference,Truck_2_2021,outlier removal + bay split + bay align,21.8486022480065
+load,reference,Truck_2_2021,voxelize + mesh + integrate,3.6965092120226473
+load,reference,Truck_2_2021,total,28.922005454980535
+load,reference,Truck_3_2016,read + cargo mask,0.4711037350061815
+load,reference,Truck_3_2016,dedup + decimate + align,3.4807189889834262
+load,reference,Truck_3_2016,outlier removal + bay split + bay align,30.416520589002175
+load,reference,Truck_3_2016,voxelize + mesh + integrate,0.8686049550015014
+load,reference,Truck_3_2016,total,35.237039833009476
+load,reference,Truck_3_2021,read + cargo mask,0.4228326230077073
+load,reference,Truck_3_2021,dedup + decimate + align,3.0297220399952494
+load,reference,Truck_3_2021,outlier removal + bay split + bay align,27.2049493350205
+load,reference,Truck_3_2021,voxelize + mesh + integrate,4.257341923977947
+load,reference,Truck_3_2021,total,34.91495736001525
+load,reference,Truck_4_2016,read + cargo mask,0.43987558799562976
+load,reference,Truck_4_2016,dedup + decimate + align,3.0852932140114717
+load,reference,Truck_4_2016,outlier removal + bay split + bay align,22.524104782001814
+load,reference,Truck_4_2016,voxelize + mesh + integrate,0.8198694490129128
+load,reference,Truck_4_2016,total,26.869235800986644
+load,reference,Truck_4_2021,read + cargo mask,0.3683235290227458
+load,reference,Truck_4_2021,dedup + decimate + align,2.3898570309975185
+load,reference,Truck_4_2021,outlier removal + bay split + bay align,15.736471935000736
+load,reference,Truck_4_2021,voxelize + mesh + integrate,3.7916630339750554
+load,reference,Truck_4_2021,total,22.286418467992917
+load,reference,Truck_5_2016,read + cargo mask,0.633615391998319
+load,reference,Truck_5_2016,dedup + decimate + align,4.714743461983744
+load,reference,Truck_5_2016,outlier removal + bay split + bay align,40.23824252097984
+load,reference,Truck_5_2016,voxelize + mesh + integrate,0.9744910640001763
+load,reference,Truck_5_2016,total,46.56118810301996
+load,reference,Truck_5_2021,read + cargo mask,0.4269907079869881
+load,reference,Truck_5_2021,dedup + decimate + align,2.9853476969874464
+load,reference,Truck_5_2021,outlier removal + bay split + bay align,28.21844664798118
+load,reference,Truck_5_2021,voxelize + mesh + integrate,3.9295732059981674
+load,reference,Truck_5_2021,total,35.560461938002845
+load,reference,Truck_6_2016,read + cargo mask,0.3545533040014561
+load,reference,Truck_6_2016,dedup + decimate + align,2.2187961880117655
+load,reference,Truck_6_2016,outlier removal + bay split + bay align,18.381852889986476
+load,reference,Truck_6_2016,voxelize + mesh + integrate,0.7901777410006616
+load,reference,Truck_6_2016,total,21.745466902008047
+load,reference,Truck_6_2021,read + cargo mask,0.4819934410043061
+load,reference,Truck_6_2021,dedup + decimate + align,3.209888765006326
+load,reference,Truck_6_2021,outlier removal + bay split + bay align,29.297531280986732
+load,reference,Truck_6_2021,voxelize + mesh + integrate,3.8611454109777696
+load,reference,Truck_6_2021,total,36.850666067999555
+load,reference,Truck_7_2016,read + cargo mask,0.6587309619935695
+load,reference,Truck_7_2016,dedup + decimate + align,4.476042678987142
+load,reference,Truck_7_2016,outlier removal + bay split + bay align,42.377351283997996
+load,reference,Truck_7_2016,voxelize + mesh + integrate,0.9096657960035373
+load,reference,Truck_7_2016,total,48.42188489201362
+load,reference,Truck_7_2021,read + cargo mask,0.5958363850077149
+load,reference,Truck_7_2021,dedup + decimate + align,4.015262969012838
+load,reference,Truck_7_2021,outlier removal + bay split + bay align,32.89503027300816
+load,reference,Truck_7_2021,voxelize + mesh + integrate,3.4196033729822375
+load,reference,Truck_7_2021,total,40.92588276899187
+load,reference,Truck_8_2016,read + cargo mask,0.6323641579947434
+load,reference,Truck_8_2016,dedup + decimate + align,4.6594220899860375
+load,reference,Truck_8_2016,outlier removal + bay split + bay align,44.565721023012884
+load,reference,Truck_8_2016,voxelize + mesh + integrate,0.9426702960045077
+load,reference,Truck_8_2016,total,50.80027805798454
+load,reference,Truck_8_2021,read + cargo mask,0.5651695499836933
+load,reference,Truck_8_2021,dedup + decimate + align,3.7061081049905624
+load,reference,Truck_8_2021,outlier removal + bay split + bay align,31.57169113800046
+load,reference,Truck_8_2021,voxelize + mesh + integrate,3.903389863000484
+load,reference,Truck_8_2021,total,39.74646146799205
+load,reference,Truck_9_2016,read + cargo mask,0.5322336139797699
+load,reference,Truck_9_2016,dedup + decimate + align,3.914267246000236
+load,reference,Truck_9_2016,outlier removal + bay split + bay align,30.561831304017687
+load,reference,Truck_9_2016,voxelize + mesh + integrate,0.8142665899940766
+load,reference,Truck_9_2016,total,35.82269680200261
+load,reference,Truck_9_2021,read + cargo mask,0.5271194450033363
+load,reference,Truck_9_2021,dedup + decimate + align,3.8839203779934905
+load,reference,Truck_9_2021,outlier removal + bay split + bay align,30.962364125007298
+load,reference,Truck_9_2021,voxelize + mesh + integrate,3.8735837940184865
+load,reference,Truck_9_2021,total,39.24708834197372
+load,predicted,Truck_10_2016,read + cargo mask,0.6927259310032241
+load,predicted,Truck_10_2016,dedup + decimate + align,4.9259130349964835
+load,predicted,Truck_10_2016,outlier removal + bay split + bay align,38.32317818698357
+load,predicted,Truck_10_2016,voxelize + mesh + integrate,0.8970407599990722
+load,predicted,Truck_10_2016,total,44.838956558989594
+load,predicted,Truck_10_2021,read + cargo mask,0.5791068329999689
+load,predicted,Truck_10_2021,dedup + decimate + align,4.008063104993198
+load,predicted,Truck_10_2021,outlier removal + bay split + bay align,26.37259430499398
+load,predicted,Truck_10_2021,voxelize + mesh + integrate,2.9785014320223127
+load,predicted,Truck_10_2021,total,33.93836833399837
+load,predicted,Truck_11_2016,read + cargo mask,0.4478905379946809
+load,predicted,Truck_11_2016,dedup + decimate + align,3.3408309090009425
+load,predicted,Truck_11_2016,outlier removal + bay split + bay align,29.4234816969838
+load,predicted,Truck_11_2016,voxelize + mesh + integrate,0.9006329099938739
+load,predicted,Truck_11_2016,total,34.11293294999632
+load,predicted,Truck_11_2021,read + cargo mask,0.5401622199860867
+load,predicted,Truck_11_2021,dedup + decimate + align,3.6565959040017333
+load,predicted,Truck_11_2021,outlier removal + bay split + bay align,24.276133537001442
+load,predicted,Truck_11_2021,voxelize + mesh + integrate,3.3373805540031753
+load,predicted,Truck_11_2021,total,31.810378335008863
+load,predicted,Truck_12_2021,read + cargo mask,0.5084643510053866
+load,predicted,Truck_12_2021,dedup + decimate + align,3.54647875399678
+load,predicted,Truck_12_2021,outlier removal + bay split + bay align,23.001630387007026
+load,predicted,Truck_12_2021,voxelize + mesh + integrate,3.256785007979488
+load,predicted,Truck_12_2021,total,30.313457286014454
+load,predicted,Truck_13_2021,read + cargo mask,0.49694194897892885
+load,predicted,Truck_13_2021,dedup + decimate + align,3.5095118650060613
+load,predicted,Truck_13_2021,outlier removal + bay split + bay align,26.873077533004107
+load,predicted,Truck_13_2021,voxelize + mesh + integrate,3.8808332399930805
+load,predicted,Truck_13_2021,total,34.76046208999469
+load,predicted,Truck_14_2021,read + cargo mask,0.5770508159766905
+load,predicted,Truck_14_2021,dedup + decimate + align,3.9134859399928246
+load,predicted,Truck_14_2021,outlier removal + bay split + bay align,29.36480972901336
+load,predicted,Truck_14_2021,voxelize + mesh + integrate,3.6936159459874034
+load,predicted,Truck_14_2021,total,37.549070999986725
+load,predicted,Truck_15_2021,read + cargo mask,0.46990241401363164
+load,predicted,Truck_15_2021,dedup + decimate + align,3.177580593008315
+load,predicted,Truck_15_2021,outlier removal + bay split + bay align,23.840532426984282
+load,predicted,Truck_15_2021,voxelize + mesh + integrate,3.5612367409921717
+load,predicted,Truck_15_2021,total,31.04935407001176
+load,predicted,Truck_16_2021,read + cargo mask,0.24509155499981716
+load,predicted,Truck_16_2021,dedup + decimate + align,1.5758196779934224
+load,predicted,Truck_16_2021,outlier removal + bay split + bay align,10.109429219010053
+load,predicted,Truck_16_2021,voxelize + mesh + integrate,3.855364824994467
+load,predicted,Truck_16_2021,total,15.785804418992484
+load,predicted,Truck_17_2021,read + cargo mask,0.5478887179924641
+load,predicted,Truck_17_2021,dedup + decimate + align,3.2409002899948973
+load,predicted,Truck_17_2021,outlier removal + bay split + bay align,25.333568376023322
+load,predicted,Truck_17_2021,voxelize + mesh + integrate,3.591073130024597
+load,predicted,Truck_17_2021,total,32.71354709501611
+load,predicted,Truck_18_2021,read + cargo mask,0.5807248700002674
+load,predicted,Truck_18_2021,dedup + decimate + align,3.881775502988603
+load,predicted,Truck_18_2021,outlier removal + bay split + bay align,26.18089227800374
+load,predicted,Truck_18_2021,voxelize + mesh + integrate,3.2404735189920757
+load,predicted,Truck_18_2021,total,33.88397317199269
+load,predicted,Truck_19_2021,read + cargo mask,0.6199868960247841
+load,predicted,Truck_19_2021,dedup + decimate + align,3.878655054984847
+load,predicted,Truck_19_2021,outlier removal + bay split + bay align,27.183802376996027
+load,predicted,Truck_19_2021,voxelize + mesh + integrate,3.301602316991193
+load,predicted,Truck_19_2021,total,34.98414664302254
+load,predicted,Truck_1_2016,read + cargo mask,0.29319428899907507
+load,predicted,Truck_1_2016,dedup + decimate + align,1.9920815129880793
+load,predicted,Truck_1_2016,outlier removal + bay split + bay align,17.851814844005276
+load,predicted,Truck_1_2016,voxelize + mesh + integrate,0.8372239370073657
+load,predicted,Truck_1_2016,total,20.974406438006554
+load,predicted,Truck_1_2021,read + cargo mask,0.5999080770125147
+load,predicted,Truck_1_2021,dedup + decimate + align,4.0331075960129965
+load,predicted,Truck_1_2021,outlier removal + bay split + bay align,32.92469600599725
+load,predicted,Truck_1_2021,voxelize + mesh + integrate,4.064284731983207
+load,predicted,Truck_1_2021,total,41.62209983501816
+load,predicted,Truck_2_2016,read + cargo mask,0.776782731001731
+load,predicted,Truck_2_2016,dedup + decimate + align,4.975539350998588
+load,predicted,Truck_2_2016,outlier removal + bay split + bay align,46.79336383097689
+load,predicted,Truck_2_2016,voxelize + mesh + integrate,0.8887130400107708
+load,predicted,Truck_2_2016,total,53.434489263017895
+load,predicted,Truck_2_2021,read + cargo mask,0.4846445939911064
+load,predicted,Truck_2_2021,dedup + decimate + align,3.0396601000102237
+load,predicted,Truck_2_2021,outlier removal + bay split + bay align,23.020083887997316
+load,predicted,Truck_2_2021,voxelize + mesh + integrate,3.6247356999956537
+load,predicted,Truck_2_2021,total,30.16923414199846
+load,predicted,Truck_3_2016,read + cargo mask,0.4794091590156313
+load,predicted,Truck_3_2016,dedup + decimate + align,3.488250879017869
+load,predicted,Truck_3_2016,outlier removal + bay split + bay align,31.057559207984013
+load,predicted,Truck_3_2016,voxelize + mesh + integrate,0.8679538489959668
+load,predicted,Truck_3_2016,total,35.89327150900499
+load,predicted,Truck_3_2021,read + cargo mask,0.43628317399998195
+load,predicted,Truck_3_2021,dedup + decimate + align,3.1145858879899606
+load,predicted,Truck_3_2021,outlier removal + bay split + bay align,26.986675592022948
+load,predicted,Truck_3_2021,voxelize + mesh + integrate,4.2076390009897295
+load,predicted,Truck_3_2021,total,34.7452857120079
+load,predicted,Truck_4_2016,read + cargo mask,0.49738461000379175
+load,predicted,Truck_4_2016,dedup + decimate + align,3.2373822680092417
+load,predicted,Truck_4_2016,outlier removal + bay split + bay align,22.435590753972065
+load,predicted,Truck_4_2016,voxelize + mesh + integrate,0.8251007910002954
+load,predicted,Truck_4_2016,total,26.995550324994838
+load,predicted,Truck_4_2021,read + cargo mask,0.34666853302042
+load,predicted,Truck_4_2021,dedup + decimate + align,2.368012744002044
+load,predicted,Truck_4_2021,outlier removal + bay split + bay align,15.692350923025515
+load,predicted,Truck_4_2021,voxelize + mesh + integrate,3.6939535959973
+load,predicted,Truck_4_2021,total,22.101088962022914
+load,predicted,Truck_5_2016,read + cargo mask,0.6782449000165798
+load,predicted,Truck_5_2016,dedup + decimate + align,4.730555236019427
+load,predicted,Truck_5_2016,outlier removal + bay split + bay align,43.413636413024506
+load,predicted,Truck_5_2016,voxelize + mesh + integrate,0.9735462329990696
+load,predicted,Truck_5_2016,total,49.7960879910097
+load,predicted,Truck_5_2021,read + cargo mask,0.44029697999940254
+load,predicted,Truck_5_2021,dedup + decimate + align,3.1230797829921357
+load,predicted,Truck_5_2021,outlier removal + bay split + bay align,29.371537425991846
+load,predicted,Truck_5_2021,voxelize + mesh + integrate,4.0687951799773145
+load,predicted,Truck_5_2021,total,37.003814260009676
+load,predicted,Truck_6_2016,read + cargo mask,0.34460869399481453
+load,predicted,Truck_6_2016,dedup + decimate + align,2.3002956330019515
+load,predicted,Truck_6_2016,outlier removal + bay split + bay align,17.9422120199888
+load,predicted,Truck_6_2016,voxelize + mesh + integrate,0.7560016909847036
+load,predicted,Truck_6_2016,total,21.343204578995937
+load,predicted,Truck_6_2021,read + cargo mask,0.482258249016013
+load,predicted,Truck_6_2021,dedup + decimate + align,3.4129472709901165
+load,predicted,Truck_6_2021,outlier removal + bay split + bay align,29.844988064985955
+load,predicted,Truck_6_2021,voxelize + mesh + integrate,4.119992827007081
+load,predicted,Truck_6_2021,total,37.860294500977034
+load,predicted,Truck_7_2016,read + cargo mask,0.671427663997747
+load,predicted,Truck_7_2016,dedup + decimate + align,4.597050411015516
+load,predicted,Truck_7_2016,outlier removal + bay split + bay align,44.86045835100231
+load,predicted,Truck_7_2016,voxelize + mesh + integrate,0.938614646991482
+load,predicted,Truck_7_2016,total,51.067641234985786
+load,predicted,Truck_7_2021,read + cargo mask,0.5924591909861192
+load,predicted,Truck_7_2021,dedup + decimate + align,4.010931406985037
+load,predicted,Truck_7_2021,outlier removal + bay split + bay align,32.683236465003574
+load,predicted,Truck_7_2021,voxelize + mesh + integrate,3.43374791496899
+load,predicted,Truck_7_2021,total,40.720484824996674
+load,predicted,Truck_8_2016,read + cargo mask,0.6818882630032022
+load,predicted,Truck_8_2016,dedup + decimate + align,4.521468971011927
+load,predicted,Truck_8_2016,outlier removal + bay split + bay align,45.06795587099623
+load,predicted,Truck_8_2016,voxelize + mesh + integrate,0.9558573589893058
+load,predicted,Truck_8_2016,total,51.22726309701102
+load,predicted,Truck_8_2021,read + cargo mask,0.5488916790054645
+load,predicted,Truck_8_2021,dedup + decimate + align,3.7145636990026105
+load,predicted,Truck_8_2021,outlier removal + bay split + bay align,32.062183261004975
+load,predicted,Truck_8_2021,voxelize + mesh + integrate,3.7680642229970545
+load,predicted,Truck_8_2021,total,40.093803347001085
+load,predicted,Truck_9_2016,read + cargo mask,0.5385650270036422
+load,predicted,Truck_9_2016,dedup + decimate + align,3.8531890799931716
+load,predicted,Truck_9_2016,outlier removal + bay split + bay align,31.487808435980696
+load,predicted,Truck_9_2016,voxelize + mesh + integrate,0.9200246709806379
+load,predicted,Truck_9_2016,total,36.799689054023474
+load,predicted,Truck_9_2021,read + cargo mask,0.5848226019879803
+load,predicted,Truck_9_2021,dedup + decimate + align,3.6380063370161224
+load,predicted,Truck_9_2021,outlier removal + bay split + bay align,30.99260391999269
+load,predicted,Truck_9_2021,voxelize + mesh + integrate,3.972197913011769
+load,predicted,Truck_9_2021,total,39.18773458999931
+run,,,all runs,2128.427087635995
+run,,,setup (config + reference),0.006859421991975978
+run,,,fit + leave-one-out,0.06053676700685173
+run,,,write tables,0.005591155990259722

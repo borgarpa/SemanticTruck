@@ -1,0 +1,73 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "semantictruck"
+version = "1.0.0"
+description = "Solid wood content estimation for roundwood truckloads from photogrammetric point clouds"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Borja García-Pascual", email = "borja.garcia.pascual@uef.fi" },
+    { name = "Mauricio Acuna" },
+    { name = "Carlos Martín-Cortés" },
+    { name = "Felipe de Miguel-Díez" },
+]
+keywords = ["forestry", "point cloud", "photogrammetry", "volume estimation", "roundwood"]
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering",
+]
+
+dependencies = [
+    # Point-cloud geometry. PINNED BY BEHAVIOUR, NOT ONLY BY API: the Poisson normal-orientation
+    # step is version-sensitive in a way that changes results silently rather than raising -- a bay
+    # whose normals invert returns a plausible small volume, because Equation 1 sums *signed*
+    # volumes and a flipped region cancels instead of erroring. The published numbers were produced
+    # against 0.19.0; treat a version bump as a change requiring the §8 equivalence check.
+    "open3d==0.19.0",
+    # Every cloud in this project is .laz, and bare laspy cannot decompress it -- the lazrs extra
+    # is required, not a convenience.
+    "laspy[lazrs]>=2.5,<3",
+    "numpy>=1.24,<2",
+    "scipy>=1.10",
+    "pandas>=2.0",
+    "scikit-learn>=1.3",
+    "statsmodels>=0.14",
+    "matplotlib>=3.7",
+    # pandas' .xlsx engine, for the computation-time workbook read by `semantictruck-plot-time`.
+    # Pure python, so it constrains nothing else.
+    "openpyxl>=3.1",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4"]
+# The training stage additionally needs Pointcept, which is NOT declared here and cannot be: it is
+# distributed as source with a CUDA extension to build, and its torch and NumPy requirements
+# contradict the pins above -- so it belongs in a separate environment. `semantictruck-train`
+# locates it at runtime through --pointcept-root or $POINTCEPT_ROOT. See docs/reproducing.md.
+
+[project.urls]
+Repository = "https://github.com/bgarciapascual/SemanticTruck"
+
+[project.scripts]
+semantictruck-pipeline         = "semantictruck.cli.pipeline:main"
+semantictruck-train            = "semantictruck.cli.train:main"
+semantictruck-predict          = "semantictruck.cli.predict:main"
+semantictruck-sensitivity      = "semantictruck.cli.sensitivity:main"
+semantictruck-timing           = "semantictruck.cli.timing:main"
+semantictruck-errors           = "semantictruck.cli.errors:main"
+semantictruck-tables           = "semantictruck.cli.tables:main"
+semantictruck-plot-volume      = "semantictruck.cli.plot_volume:main"
+semantictruck-plot-time        = "semantictruck.cli.plot_time:main"
+semantictruck-plot-sensitivity = "semantictruck.cli.plot_sensitivity:main"
+semantictruck-plot-curves      = "semantictruck.cli.plot_curves:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+semantictruck = ["py.typed"]

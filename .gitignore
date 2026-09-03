@@ -1,0 +1,28 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# The truckload scans and the trained segmentation weights are proprietary to Forico Pty Limited
+# and are not included; see the Data availability statement in the manuscript. Only the clouds
+# themselves are excluded from data/ -- the reference table and the fold manifest are small,
+# are not proprietary, and belong in the repository.
+data/clouds/
+data/predictions/
+*.laz
+*.las
+*.npy
+
+*.pth
+*.ckpt
+*.pt
+*.safetensors
+exp/
+events.out.tfevents.*
+
+.venv/
+.idea/
+.vscode/
+.pytest_cache/
