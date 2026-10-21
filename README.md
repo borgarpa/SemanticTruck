@@ -20,6 +20,7 @@ The code in this repository reproduces:
 - surface reconstruction
 - volume calculation
 - statistical model fit
+- equivalence test between manual and model segmentation errors
 - sensitivity analysis
 - computation-time study
 - manuscript's figures and tables
@@ -92,6 +93,9 @@ semantictruck-errors  --table results/pipeline/results_per_truck.csv --by-campai
 semantictruck-tables  --run   results/pipeline
 semantictruck-plot-volume --table results/pipeline/results_per_truck.csv --fit-line
 
+# Whether the model segmentation's error is equivalent to the manual one's
+semantictruck-paired-errors --table results/pipeline/results_per_truck.csv --margin 1.0
+
 # The sensitivity analysis behind the parameter choices
 semantictruck-sensitivity --out results/sensitivity
 
@@ -109,6 +113,7 @@ Every command can also be run as `python -m semantictruck.cli.<name>`. `semantic
 | `semantictruck-sensitivity` | the one-at-a-time parameter sweep and its supplementary figures |
 | `semantictruck-timing` | per-truckload computation cost |
 | `semantictruck-errors` | the aggregate error table (manuscript Tables 3 and 4) |
+| `semantictruck-paired-errors` | paired comparison of the two segmentations' absolute LOO error: Hodges-Lehmann shift with exact CI, BCa bootstrap CI, and a TOST equivalence test |
 | `semantictruck-tables` | display manuscript Tables 1, 3 and 4 |
 | `semantictruck-plot-volume` | manuscript Figure 4: net vs. gross volume |
 | `semantictruck-plot-curves` | manuscript Figure 3: cross-validation training curves |
